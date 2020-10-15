@@ -1,0 +1,98 @@
+.profile {
+  height: 100vh;
+  background-color: rgb(250, 250, 250);
+  .profile_nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+  }
+  .profile_main {
+    display: grid;
+    place-items: center;
+    margin: 70px 0;
+
+    img {
+      border-radius: 50%;
+    }
+    p {
+      font-size: 14px;
+      color: rgba(34, 34, 34, 0.767);
+    }
+    button {
+      margin-top: 30px;
+      border: none;
+      font-family: Montserrat;
+      background: linear-gradient(
+        71deg,
+        rgba(85, 0, 222, 1) 0%,
+        rgba(206, 165, 252, 1) 0%,
+        rgba(86, 8, 189, 1) 100%
+      );
+      color: white;
+      width: 8rem;
+      padding: 10px;
+      border-radius: 30px;
+    }
+  }
+  .profile_bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+
+    .social_md {
+      display: grid;
+      place-items: center;
+
+      h3 {
+        font-size: 16px;
+        margin-top: 5px;
+      }
+      p {
+        font-size: 14px;
+        color: rgba(34, 34, 34, 0.767);
+      }
+    }
+  }
+  .social_md_icon {
+    font-size: 26px;
+    color: white;
+    background: linear-gradient(
+      71deg,
+      rgba(85, 0, 222, 1) 0%,
+      rgba(206, 165, 252, 1) 0%,
+      rgba(86, 8, 189, 1) 100%
+    );
+    padding: 15px;
+    border-radius: 50%;
+  }
+  .linkedin {
+    background: linear-gradient(
+      71deg,
+      rgba(85, 0, 222, 1) 0%,
+      rgba(14, 118, 168, 1) 0%,
+      rgba(9, 51, 121, 1) 100%
+    );
+  }
+  .reddit {
+    background: linear-gradient(
+      71deg,
+      rgba(85, 0, 222, 1) 0%,
+      rgba(255, 87, 0, 1) 0%,
+      rgba(255, 0, 0, 1) 100%
+    );
+  }
+  .instagram {
+    background: linear-gradient(
+      71deg,
+      rgba(85, 0, 222, 1) 0%,
+      rgba(81, 91, 212, 1) 0%,
+      rgba(129, 52, 175, 1) 100%
+    );
+  }
+  hr {
+    width: 50%;
+    margin: 0 auto;
+    opacity: 0.24;
+  }
+}
